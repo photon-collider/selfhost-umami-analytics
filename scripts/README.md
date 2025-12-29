@@ -57,10 +57,10 @@ crontab -e
 Add this line:
 
 ```
-0 2 1 * * /path/to/script/backup-umami.sh
+0 2 1 * * ~/selfhost-umami-analytics/scripts/backup-umami.sh
 ```
 
-Or adjust the path to wherever you've placed the script.
+Note: adjust the path to wherever you've placed the script.
 
 ### What It Does
 
