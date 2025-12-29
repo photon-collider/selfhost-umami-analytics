@@ -6,7 +6,7 @@
 
 ```bash
    git clone https://github.com/photon-collider/selfhost-umami-analytics
-   cd umami-analytics-setup
+   cd selfhost-umami-analytics
 ```
 
 2. Configure your environment:
