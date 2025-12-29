@@ -75,12 +75,7 @@ aws s3 cp "$BACKUP_FILE" "s3://$S3_BUCKET/$S3_PREFIX/" \
     --storage-class DEEP_ARCHIVE \
     --only-show-errors
 
-if [ $? -eq 0 ]; then
-    echo "SUCCESS: Backup uploaded to s3://$S3_BUCKET/$S3_PREFIX/umami_backup_$TIMESTAMP.sql.gz"
-else
-    echo "ERROR: Failed to upload backup to S3" >&2
-    exit 1
-fi
+echo "SUCCESS: Backup uploaded to s3://$S3_BUCKET/$S3_PREFIX/umami_backup_$TIMESTAMP.sql.gz"
 
 # Clean up old local backups
 echo "Cleaning up local backups older than $RETENTION_DAYS days..."
