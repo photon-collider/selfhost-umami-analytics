@@ -1,5 +1,13 @@
 # Setup for Self-Hosting Umami Analytics
 
+A ready-to-deploy configuration for self-hosting [Umami](https://umami.is/), a privacy-focused, open-source web analytics platform. This setup includes automatic HTTPS via Caddy and optional automated backups to AWS Glacier Deep Archive.
+
+## Prerequisites
+
+- [Docker](https://docs.docker.com/get-docker/) and Docker Compose
+- A domain name with DNS access (for VPS deployment)
+- (Optional) [AWS CLI](https://aws.amazon.com/cli/) configured with credentials for automated backups
+
 ## Quick Start on a VPS
 
 1. Clone the repository:

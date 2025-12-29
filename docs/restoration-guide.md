@@ -8,6 +8,8 @@ Glacier Deep Archive retrievals take **12-48 hours**. Plan accordingly for disas
 
 ## Step 1: List Available Backups
 
+First, check your `.env` file for your S3 bucket name (`S3_BUCKET`) and prefix (`S3_PREFIX`), then list available backups:
+
 ```bash
 aws s3 ls s3://your-bucket-name/umami-backups/
 ```
