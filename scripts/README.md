@@ -83,4 +83,4 @@ Glacier Deep Archive pricing is approximately $0.00099/GB/month. For a typical U
 - Glacier Deep Archive has 12-48 hour retrieval time
 - 180-day minimum storage duration applies
 - Local backups are kept for 7 days by default to save disk space
-- See [backup-setup.md](../docs/backup-setup.md) for complete AWS setup instructions
+- See [restoration-guide.md](../docs/restoration-guide.md) for instructions on restoring from a backup
