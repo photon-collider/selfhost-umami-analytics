@@ -1,6 +1,6 @@
 # Setup for Self-Hosting Umami Analytics
 
-## Quick Start
+## Quick Start on a VPS
 
 1. Clone the repository:
 
@@ -53,11 +53,13 @@ docker compose -f docker-compose.yml -f docker-compose.local.yml up
 3. Access Umami at `http://localhost:3000`
 
 **What's different in local mode:**
+
 - Umami is exposed directly on port 3000 (no Caddy/HTTPS)
 - Caddy doesn't run (skipped via profile)
 - Same database and application behavior as production
 
 **Default login:**
+
 - Username: `admin`
 - Password: `umami`
 
