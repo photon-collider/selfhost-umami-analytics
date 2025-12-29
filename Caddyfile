@@ -1,0 +1,5 @@
+{env.DOMAIN} {
+    reverse_proxy umami:3000 {
+        header_up X-Forwarded-Proto {scheme}
+    }
+}
