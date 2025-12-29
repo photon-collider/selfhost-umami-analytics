@@ -33,7 +33,7 @@ S3_BUCKET="${S3_BUCKET:?S3_BUCKET not set in .env}"
 S3_PREFIX="${S3_PREFIX:-umami-backups}"
 DB_NAME="${POSTGRES_DB:?POSTGRES_DB not set in .env}"
 DB_USER="${POSTGRES_USER:?POSTGRES_USER not set in .env}"
-POSTGRES_CONTAINER="${POSTGRES_CONTAINER:-umami-db-1}"
+POSTGRES_CONTAINER="${POSTGRES_CONTAINER:-selfhost-umami-analytics-db-1}"
 RETENTION_DAYS="${BACKUP_RETENTION_DAYS:-7}"
 
 # Logging
