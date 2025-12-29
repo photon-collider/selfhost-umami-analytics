@@ -5,7 +5,7 @@
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/yourusername/umami-analytics-setup
+   git clone https://github.com/photon-collider/selfhost-umami-analytics
    cd umami-analytics-setup
 ```
 
